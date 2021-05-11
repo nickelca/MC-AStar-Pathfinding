@@ -1,5 +1,5 @@
 # MC-AStar-Pathfinding
-Implements AStar pathfinding in minecraft with a choice between manhattan distance heuristic or euclidean distance heurstic.
+Implements AStar pathfinding in Minecraft with a choice between manhattan distance heuristic or euclidean distance heurstic.
 
 All options can be found under `/function pathfinding:options/...`
 To get the spawn eggs for the spawn and end point, run `/function pathfinding:give_spawn_eggs`.
