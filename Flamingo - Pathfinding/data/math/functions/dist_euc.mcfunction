@@ -3,10 +3,10 @@
 # 5 April 2021 #
 #--------------#
 
-###------------------------------------------------------###
+#                                                          #
 #         This uses the euclidean distance formula         #
 # distance = sqrt[(x1 - x2)^2 + (y1 - y2)^2 + (z1 - z2)^2] #
-###------------------------------------------------------###
+#                                                          #
 
 data modify storage flamingo:pathfind pos.node set from entity @s Pos
 

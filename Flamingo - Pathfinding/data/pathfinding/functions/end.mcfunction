@@ -3,6 +3,7 @@
 # 5 April 2021 #
 #--------------#
 
-tellraw @a {"text": "Successful! Found the optimal path.","color": "dark_green"}
+scoreboard players operation $Time.Sec pfind.var /= #20 const
+tellraw @a [{"text": "Successful! Found the optimal path in ","color": "dark_green"},{"score":{"objective": "pfind.var","name": "$Time.Sec"}},{"text": " seconds."}]
 kill @e[tag=pfind,tag=explore,tag=!path]
 scoreboard players set $f_end pfind.var 1

@@ -10,4 +10,4 @@ summon area_effect_cloud ~ ~ ~ {Tags:["new","pfind"], Duration: 2147483647}
 execute as @e[tag=pfind,tag=new,distance=..0.3] run data modify entity @s Tags set from storage flamingo:pathfind enode.tags
 
 #> Start the trace back
-execute if score $f_end pfind.var matches 0 as @e[tag=pfind,tag=explore,distance=..0.3] run function pathfinding:trace_back/main
+execute if score $f_end pfind.var matches 0 run schedule function pathfinding:trace_back/schedule_context 1t append

@@ -3,10 +3,10 @@
 # 5 April 2021 #
 #--------------#
 
-###------------------------------------------###
-#   This uses the manhattan distance formula   #
-# distance = |x1 - x2| + |y1 - y2| + |z1 - z2| #
-###------------------------------------------###
+#                                               #
+#   This uses the manhattan distance formula    #
+# distance = |x1 - x2| + |y1 - y2| + |z1 - z2|  #
+#                                               #
 
 data modify storage flamingo:pathfind pos.node set from entity @s Pos
 

@@ -3,7 +3,11 @@
 # 5 April 2021 #
 #--------------#
 
-#> Add current tag
+#> Time Counter
+scoreboard players add $Time.Sec pfind.var 2
+
+#> Modify Tags
+tag @s remove SchedContext
 tag @s add current
 
 #> Summon the new explore entities
