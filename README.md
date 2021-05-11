@@ -12,3 +12,4 @@ If you want, once the path is drawn, you can have Jimbo the villager walk along 
 Changelog:
  - Added a timer to see how long it took to run the pathfinding.
  - Split the pathfinding up into multiple ticks as it seemed to create lots of problems, especially for harder paths.
+ - Modified the movement functions to not use a ticking function.
