@@ -10,7 +10,7 @@ If you want, once the path is drawn, you can have Jimbo the villager walk along 
 
 
 Changelog:
- - Added a timer to see how long it took to run the pathfinding.
+ - Removed the timer as it seems to be incredibly inaccurate
  - Split the pathfinding up into multiple ticks as it seemed to create lots of problems, especially for harder paths.
  - Modified the movement functions to not use a ticking function.
  - Changed the square root function to be the one made by Cloud Wolf at https://cloudwolfyt.github.io/pages/downloads/list.html (Math Lite)
